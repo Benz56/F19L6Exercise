@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="368.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="f19l6exercise.FXMLDocumentController">
+   <children>
+      <HBox layoutX="26.0" layoutY="27.0" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="image1" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/fruits0.png" />
+               </image></ImageView>
+            <ImageView fx:id="image2" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/fruits0.png" />
+               </image></ImageView>
+            <ImageView fx:id="image3" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/fruits0.png" />
+               </image></ImageView>
+         </children>
+      </HBox>
+      <HBox layoutX="26.0" layoutY="188.0" prefHeight="25.0" prefWidth="450.0">
+         <children>
+            <Button fx:id="stop1Btn" disable="true" mnemonicParsing="false" prefWidth="150.0" text="Stop1" />
+            <Button fx:id="stop2Btn" disable="true" mnemonicParsing="false" prefWidth="150.0" text="Stop 2" />
+            <Button fx:id="stop3Btn" disable="true" mnemonicParsing="false" prefWidth="150.0" text="Stop 3" />
+         </children>
+      </HBox>
+      <Button fx:id="startBtn" layoutX="200.0" layoutY="248.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="Start" />
+      <Label fx:id="resultLabel" alignment="CENTER" layoutX="51.0" layoutY="319.0" prefWidth="400.0" text="Awaiting Start!" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
